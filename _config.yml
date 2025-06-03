@@ -1,5 +1,9 @@
 title: Read The Docs Jekyll Theme
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
+show_downloads: true
+remote_theme: nikescar/jekyll-theme-rtd
+plugins:
+- jekyll-remote-theme
 
 # Development server config, needed to load some of the content
 webrick:
@@ -13,5 +17,17 @@ edit_on_github: true
 github_docs_folder: false
 sticky_navigation: true
 prev_next_buttons_location: both
-search_enabled: true
+search_enabled: false
+# logo: 'https://your.url/image.png'
+# site_favicon: 'https://your.url/here.ico'
+# theme: 'https://your.url/assets/css/theme.css'
+# extra_theme: 'https://your.url/assets/css/theme_extra.css'
+prev_next_buttons_location: None
+prev_next_buttons_location: top
+prev_next_buttons_location: bottom
+prev_next_buttons_location: both
+# google_analytics: UA-XXXXX-Y
+google_analytics_anonymize_ip: true
+# The highlight.js library provides 79 different colours for their syntax highlighting. The default is github-gist.
 hljs_style: github-gist
+exclude: []
