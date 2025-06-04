@@ -16,9 +16,9 @@
   <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
-  {% if config.theme %}<link rel="stylesheet" href="{{ config.theme | url }}" />
+  {% if config.theme %}<link rel="stylesheet" href="{{ config.theme | absolute_url }}" />
   {% else %}<link rel="stylesheet" href="{{ 'assets/css/theme.css' | absolute_url }}" />{% endif %}
-  {% if config.theme_extra %}<link rel="stylesheet" href="{{ config.theme_extra | url }}" />
+  {% if config.theme_extra %}<link rel="stylesheet" href="{{ config.theme_extra | absolute_url }}" />
   {% else %}<link rel="stylesheet" href="{{ 'assets/css/theme_extra.css' | absolute_url }}" />{% endif %}
   {%- if site.hljs_style %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{site.hljs_style}}.min.css" />
