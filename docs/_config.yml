@@ -18,10 +18,10 @@ github_docs_folder: false
 sticky_navigation: true
 prev_next_buttons_location: both
 search_enabled: false
-# logo: 'https://your.url/image.png'
-# site_favicon: 'https://your.url/here.ico'
-# theme: 'https://your.url/assets/css/theme.css'
-# extra_theme: 'https://your.url/assets/css/theme_extra.css'
+# logo: 'https://tui.dure.app/assets/css/theme.css'
+site_favicon: 'assets/img/favicon.ico'
+theme: 'assets/css/theme302.css'
+extra_theme: 'assets/css/theme_extra.css'
 prev_next_buttons_location: None
 prev_next_buttons_location: top
 prev_next_buttons_location: bottom
